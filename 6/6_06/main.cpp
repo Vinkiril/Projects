@@ -98,26 +98,26 @@ public:
            case 'l':
            {
                w1=laborer;
-               cout<<"loborer\n";
+               //cout<<"loborer\n";
                break;
            }
 
            case 's':
            {
                w1=secretary;
-               cout<<"secretary\n";
+               //cout<<"secretary\n";
                break;
            }
            case'm':
            {
                w1=manager;
-               cout<<"manager\n";
+               //cout<<"manager\n";
                break;
            }
            case'a':
            {
                w1=accountant;
-               cout<<"accountant\n";
+               //cout<<"accountant\n";
                break;
            }
            case 'e':
@@ -129,7 +129,7 @@ public:
            case 'r':
            {
                w1=researcher;
-               cout<<"researcher";
+               //cout<<"researcher";
                break;
            }
        }
