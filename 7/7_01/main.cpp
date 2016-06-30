@@ -1,24 +1,26 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-const uint16_t n = 16;
-void reversit(char str[n])
+const uint16_t MAX = 64;
+void reversit(char str[])
 {
-    uint16_t n=0;
-    n=strlen(str);
+    uint16_t m=0;
+    m=strlen(str);
     char temp;
-    for(uint16_t i =0;i<n/2;i++)
+    for(uint16_t i =0;i<m/2;i++)
     {
         temp=str[i];
-        str[i]=str[n-i-1];
-        str[n-i-1]=temp;
+        str[i]=str[m-i-1];
+        str[m-i-1]=temp;
     }
 }
 
 int main(void)
 {
-
-    char hell[n] ="Hello World!";
+    char hell[MAX];
+    cout<<"Введите строку"<<endl;
+    cin.get(hell[MAX]);
+    //char hell[n] ="Hello World!";
     cout<<hell<<endl;
     reversit(hell);
     cout<<hell<<endl;
